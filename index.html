@@ -60,7 +60,7 @@
         </div>
     </div>
 
-    <script>
+   <script>
         // Configuration: URL of your Python backend
         // const BACKEND_URL = 'http://127.0.0.1:5000';
         const BACKEND_URL = 'https://test-site-law.onrender.com';
@@ -130,6 +130,16 @@
             }
         }
     </script>
+
+    <script src="https://cdn.jsdelivr.net/gh/logspace-ai/langflow-embedded-chat@v1.0.7/dist/build/static/js/bundle.min.js"></script>
+
+    <langflow-chat
+        id="my-chat-bot"               style="display: none"          window_title="Vector Store RAG - GitHub"
+        flow_id="90ad0982-52c0-4fc0-9660-92735a850aae"
+        host_url="https://langflow.sail.codes"
+        api_key="...">
+    </langflow-chat>
 </body>
 
 </html>
+
